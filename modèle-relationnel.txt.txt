@@ -1,0 +1,6 @@
+
+Hôtel (Hotel_id, Hotel_name, #type_id)
+Type (Type_id, Type_name)
+Employé (id_employé, nom_employé, spécial_employé, #director_id, #Hotel_id)
+Chambre (room_id, #Hotel_id, #Category_id)
+Catégorie (Category_id, Category_name, price, Num_Beds)
